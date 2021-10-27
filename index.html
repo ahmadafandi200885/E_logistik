@@ -5,6 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E_logistik</title>
+
+    <style>
+        table, td, th {
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+    
+        table {
+            border-collapse: collapse;
+            width: auto;
+        }
+    
+        th, td {
+            padding: 10px;
+        }
+    </style>    
+
 </head>
 <body>
    
@@ -28,7 +45,47 @@
         const app = initializeApp(firebaseConfig);
     </script>
       
+    <h2>The Padding Property</h2>
+    <p>This property adds space betwen the border and the content in a table</p>
 
-    <p>hello world1</p>
+    <table>
+        <tr>
+            <th>No</th>
+            <th>Tanggal</th>
+            <th>Nama Barang</th>
+            <th>Banyaknya</th>
+            <th>satuan</th>
+            <th>harga satuan</th>
+            <th>harga</th>
+            <th>STA</th>
+            <th>keterangan</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <td>20-10-2021</td>
+            <td>sirtu</td>
+            <td>20</td>
+            <td>m3</td>
+            <td>250000</td>
+            <td>5000000</td>
+            <th>34+868</th>
+            <td></td>
+        </tr>
+        <tr>
+            <th>2</th>
+            <td>22-10-2021</td>
+            <td>barier</td>
+            <td>15</td>
+            <td>pcs</td>
+            <td>1100000</td>
+            <td>16500000</td>
+            <th>23+866</th>
+            <td></td>
+        </tr>
+
+
+    </table>
+
+    
 </body>
 </html>
